@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorador de Fotos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="formulario">
+        <!-- Formulario para subir fotos -->
+        <form action="procesar.php" method="post" enctype="multipart/form-data">
+            <!-- Campos para la foto, comentarios, precio, ubicación y nombre -->
+            <input type="file" name="foto" required>
+            <textarea name="comentarios" placeholder="Comentarios" required></textarea>
+            <input type="text" name="precio" placeholder="Precio" required>
+            <input type="text" name="ubicacion" placeholder="Ubicación" required>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <button type="submit">Subir Foto</button>
+        </form>
+    </div>
+
+    <div id="galeria">
+        <!-- Contenedor para mostrar fotos y datos -->
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
