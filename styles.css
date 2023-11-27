@@ -1,0 +1,43 @@
+/* Estilos básicos, ajusta según tus preferencias */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#formulario {
+    margin-bottom: 20px;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+#formulario input,
+#formulario textarea {
+    margin-bottom: 10px;
+}
+
+#formulario button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagen {
+    width: 200px;
+    margin: 10px;
+}
+
+.imagen img {
+    max-width: 100%;
+    border-radius: 5px;
+}
